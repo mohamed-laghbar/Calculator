@@ -1,0 +1,33 @@
+body {
+    background-image: linear-gradient(to left bottom,
+            #0031ff,
+            #712aff,
+            #a320ff,
+            #cc12ff,
+            #f000ff);
+}
+
+button {
+    border-radius: 8px !important;
+    background-color: rgb(235, 235, 235);
+    color: rgb(0, 0, 0);
+    margin: 4px !important;
+    height: 70px;
+    width: 70px;
+    border-style: none !important;
+}
+
+button:hover {
+    background-color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#screen {
+    width: 309px;
+    height: 70px;
+    border-style: none !important;
+    background-color: rgb(215, 215, 216);
+    border-radius: 6px !important;
+    font-size: larger;
+}
