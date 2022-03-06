@@ -35,4 +35,9 @@ if (operations.includes(previousNum) && operations.includes(currentNum)){
       screen.value = screen.value.slice(0,numchar-2) + screen.value.slice(numchar-1);
     }
 }
+
+if (previousNum=='.'  && currentNum=='.'){
+  screen.value = screen.value.substring(0,numchar-1);
+}
+
 }
